@@ -1,7 +1,7 @@
 version: '3'
 services:
   redis-server:
-    container-name: redis-server
+    container_name: redis-server
     image: redis
   node-app:
     build: .
